@@ -1,0 +1,30 @@
+$primary-color: #58ba86;
+$faded-black: #777777;
+
+body{
+    margin: 15rem;
+    padding-top: 5rem;
+    border-top: 25px solid $primary-color;
+}
+.contact-div h1.name{
+    font-size: 10rem;
+    padding-bottom: 0;
+}
+.skills-div, .experience-div, .education-div{
+    padding-top: 5rem;
+}
+.skills, .experience, .education{
+    color: $primary-color;
+    font-weight: bold;
+    font-size: 5rem;
+}
+.work-title-span, .education-span{
+    font-weight: bold;
+}
+.italic-work-title-span, .italic-education-span{
+    font-style: italic;
+    color: $faded-black;
+}
+.dates-worked{
+    color: $faded-black;
+}
